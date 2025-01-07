@@ -7,6 +7,12 @@ body {
   letter-spacing: -.4px;
   font-size: 1.4rem;
   line-height: 1.7rem;
+  background-color: rgb(220, 218, 215);
+}
+h1,h2,h3,p,li    {
+  font-size: unset;
+  font-weight: unset;
+  list-style-type: none;
 }
 
 .search_area {
