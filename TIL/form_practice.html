@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>숙소 예약 사이트 제작하기</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <h1>숙소 예약</h1>
+  <form action="#">
+    <h2>신상 정보</h2>
+    <div>
+      <label for="name">이름 :</label>
+      <input type="text" placeholder="이름 입력">
+    </div>
+    <div>
+      <label for="email">이메일 :</label>
+      <input type="text" placeholder="이메일 입력">
+    </div>
+    <div>
+      <label for="file">예약자 사진 :</label>
+      <input type="file">
+    </div>
+    <hr>
+    <h2>상세 정보</h2>
+    <h3>선호 객실 타입</h3>
+    <div>
+      <label for="city_view">도시뷰 :</label>
+      <input type="checkbox" name="city_view" id="city_view" value="city_view">
+      <label for="lake">레이크뷰 :</label>
+      <input type="checkbox" name="lake" id="lake" value="lake">
+      <label for="mountain">마운틴뷰 :</label>
+      <input type="checkbox" name="mountain" id="mountain" value="mountain">
+    </div>
+    <h3>동행자 정보</h3>
+    <div>
+      <label for="nums">인원수 :</label>
+      <input type="number" name="nums" id="nums" max="10" min="0">
+    </div>
+    <h2>기타</h2>
+    <div>
+      <label for="more">요청 사항 :</label>
+      <textarea name="more" id="more" cols="40" rows="20">히히</textarea>
+    </div>
+    <hr>
+    <input type="submit" value="go">
+  </form>
+</body>
+</html>
