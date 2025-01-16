@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    fetch('https://jsonplaceholder.typicode.com/users')
+    // json 받아옴
+      .then(response => response.json())
+      // callback, 인자로 json.json => js로 파싱
+      .then(res => console.log(res))
+      // 파싱된 데이터 result => console
+  </script>
+</body>
+</html>
